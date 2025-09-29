@@ -2,7 +2,7 @@ import React from 'react'
 import { FaReact } from "react-icons/fa";
 import Navbar from './components/navbar';
 // import Contact from './pages/contact.jsx'
-// import Footer from './components/footer.jsx'
+import Footer from './components/footer.jsx'
 // import Herosection from './components/herosection.jsx'
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <Navbar />
       {/* <Herosection/> */}
       {/* <Contact/> */}
-      {/* <Footer/> */}
+      <Footer/>
     </div >
   )
 }
