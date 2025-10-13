@@ -23,9 +23,9 @@ import {
 } from "react-icons/si";
 
 // Images ---------------------------------
-import Img1 from "../assets/finotype 1.png";
-import Img2 from "../assets/finotype 1.png";
-import Img3 from "../assets/finotype 1.png";
+import Img1 from "../assets/finotypefirst.webp";
+import Img2 from "../assets/finotypefirst.webp";
+import Img3 from "../assets/finotypefirst.webp";
 
 const Projects = () => {
     const [activeTab, setActiveTab] = useState("tab1"); // switch tabs
