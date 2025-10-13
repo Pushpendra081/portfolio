@@ -11,7 +11,7 @@ const Footer = () => {
         <footer className=" w-full py-[2px] rounded-t-[18px] border-2 bg-[#fff]/10 backdrop-blur-2xl">
             <div class=" max-w-full my-[24px] mx-[120px] flex-wrap md:flex flex-row justify-between items-center ">
                 {/* name footer */}
-                <div className="flex flex-row">
+                <div className=" flex flex-row">
                     <span class="flex flex-col gap-[8px]">
                         <h1 class="text-[28px] text-[#fff] font-semibold cursor-default">Pushpendra Vishwakarma </h1>
                         {/* Always learning, always building | Turning Ideas into Interactive Web Solutions. */}
@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
 
                 {/* Tech Stack */}
-                <div className="flex flex-row ">
+                <div className="mt-4 flex flex-row ">
                     <span class="flex flex-col gap-[8px]">
                         <h1 class="text-[18px] text-[#fff] font-bold cursor-default">Tech Stack
                         </h1>
@@ -54,7 +54,7 @@ const Footer = () => {
                 </div>
 
                 {/* Social Link's */}
-                <div className="flex flex-row text-[#fff]">
+                <div className="mt-4 flex flex-row text-[#fff]">
                     <span class="flex flex-col gap-[8px]">
                         <h1 class="text-[18px] text-[#fff] font-bold cursor-default">Social Link's
                         </h1>
@@ -80,7 +80,7 @@ const Footer = () => {
                 </div>
 
                 {/* Download CV */}
-                <div className="flex flex-row text-[#fff]">
+                <div className="mt-4 flex flex-row text-[#fff]">
                     <span class="flex flex-col gap-[8px]">
                         <a title="Download CV" href="src\assets\Pushpendra Vishwakarma CV.pdf" download class=" px-[12px] py-[6px] rounded-[10px] border-[2px] border-solid border-[#fff]  text-[#fff] text-[18px] font-semibold tracking-normal hover:border-[#090040] hover:text-[#090040] hover:bg-[#B13BFF] transition-all duration-200 flex justify-center items-center gap-[4px] ">
                             Download CV
