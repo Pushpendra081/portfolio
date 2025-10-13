@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdEmail } from "react-icons/md";
-import HeroImg from "../assets/My Profile Pic.jpg";
+import HeroImg from "../assets/profilepic.jpg";
 
 const Herosection = () => {
     return (
