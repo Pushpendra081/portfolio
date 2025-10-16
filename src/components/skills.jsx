@@ -28,7 +28,7 @@ const Skills = () => {
         <div className="text-[#fff] mx-[42px] justify-items-center mt-[86px]">
             {/* Heading */}
             <div className="px-[14px] rounded-[20px] border-b-[2px] border-solid border-[#fff]">
-                <h1 className="text-[42px] font-semibold tracking-wide ">Skills</h1>
+                <h1 className="text-[36px] md:text-[42px] font-semibold tracking-wide ">Skills</h1>
             </div>
 
             {/* Tab Buttons */}
