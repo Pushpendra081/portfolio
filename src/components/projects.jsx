@@ -46,7 +46,7 @@ const Projects = () => {
         <div className="text-[#fff] mx-[42px] justify-items-center mt-[86px]">
             {/* Heading */}
             <div className="px-[14px] rounded-[20px] border-b-[2px] border-solid border-[#fff]">
-                <h1 className="text-[42px] font-semibold tracking-wide ">Projects</h1>
+                <h1 className=" text-[36px] md:text-[42px] font-semibold tracking-wide ">Projects</h1>
             </div>
 
             {/*  Content */}
@@ -86,14 +86,14 @@ const Projects = () => {
                                 </div>
                                 <div className="w-full flex justify-between items-center gap-[10px] mt-[18px] mb-[5px] font-medium">
                                     <a
-                                        href="#"
+                                        href="https://github.com/samrojk/finotype" target="_blank"
                                         className="flex flex-row items-center gap-[10px] bg-[#471396]  px-[10px] py-[6px] transition-colors duration-200 text-[14px]  rounded-[10px] border-[2px] border-solid border-[#fff]/10  text-[#fff] font-semibold tracking-normal hover:border-[#090040]/50 hover:text-[#090040] hover:bg-[#B13BFF]"
                                     >
                                         Code
                                         <SiGithub size={14} />
                                     </a>
                                     <a
-                                        href="#"
+                                        href="https://finotype.netlify.app" target="_blank"
                                         className="flex flex-row items-center gap-[10px] bg-[#471396]  px-[10px] py-[6px] transition-colors duration-200 text-[14px]  rounded-[10px] border-[2px] border-solid border-[#fff]/10  text-[#fff] font-semibold tracking-normal hover:border-[#090040]/50 hover:text-[#090040] hover:bg-[#B13BFF]"
                                     >
                                         Demo
@@ -137,14 +137,14 @@ const Projects = () => {
                                 </div>
                                 <div className="w-full flex justify-between items-center gap-[10px] mt-[18px] mb-[5px] font-medium">
                                     <a
-                                        href="#"
+                                        href="https://github.com/samrojk/finotype" target="_blank"
                                         className="flex flex-row items-center gap-[10px] bg-[#471396]  px-[10px] py-[6px] transition-colors duration-200 text-[14px]  rounded-[10px] border-[2px] border-solid border-[#fff]/10  text-[#fff] font-semibold tracking-normal hover:border-[#090040]/50 hover:text-[#090040] hover:bg-[#B13BFF]"
                                     >
                                         Code
                                         <SiGithub size={14} />
                                     </a>
                                     <a
-                                        href="#"
+                                        href="https://finotype.netlify.app" target="_blank"
                                         className="flex flex-row items-center gap-[10px] bg-[#471396]  px-[10px] py-[6px] transition-colors duration-200 text-[14px]  rounded-[10px] border-[2px] border-solid border-[#fff]/10  text-[#fff] font-semibold tracking-normal hover:border-[#090040]/50 hover:text-[#090040] hover:bg-[#B13BFF]"
                                     >
                                         Demo
@@ -154,7 +154,6 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-
 
                     {/* FeProject 3 */}
                     <div>
@@ -189,14 +188,14 @@ const Projects = () => {
                                 </div>
                                 <div className="w-full flex justify-between items-center gap-[10px] mt-[18px] mb-[5px] font-medium">
                                     <a
-                                        href="#"
+                                        href="https://github.com/samrojk/finotype" target="_blank"
                                         className="flex flex-row items-center gap-[10px] bg-[#471396]  px-[10px] py-[6px] transition-colors duration-200 text-[14px]  rounded-[10px] border-[2px] border-solid border-[#fff]/10  text-[#fff] font-semibold tracking-normal hover:border-[#090040]/50 hover:text-[#090040] hover:bg-[#B13BFF]"
                                     >
                                         Code
                                         <SiGithub size={14} />
                                     </a>
                                     <a
-                                        href="#"
+                                        href="https://finotype.netlify.app" target="_blank"
                                         className="flex flex-row items-center gap-[10px] bg-[#471396]  px-[10px] py-[6px] transition-colors duration-200 text-[14px]  rounded-[10px] border-[2px] border-solid border-[#fff]/10  text-[#fff] font-semibold tracking-normal hover:border-[#090040]/50 hover:text-[#090040] hover:bg-[#B13BFF]"
                                     >
                                         Demo
