@@ -9,13 +9,13 @@ const Footer = () => {
     return (
         // bg-[#f1eaea] bg-[#eaeaea] bg-[#e8e8e8]
         <footer className=" w-full py-[2px] rounded-t-[18px] border-2 bg-[#fff]/10 backdrop-blur-2xl">
-            <div class=" max-w-full my-[24px] mx-[120px] flex-wrap md:flex flex-row justify-between items-center ">
+            <div class=" max-w-full my-[24px] mx-[70px] md:mx-[120px] flex-wrap md:flex flex-row justify-between items-center ">
                 {/* name footer */}
                 <div className=" flex flex-row">
                     <span class="flex flex-col gap-[8px]">
-                        <h1 class="text-[28px] text-[#fff] font-semibold cursor-default">Pushpendra Vishwakarma </h1>
-                        {/* Always learning, always building | Turning Ideas into Interactive Web Solutions. */}
-                        <p className="text-[#d2b4e7] text-[14px] w-[350px]">© 2025 Pushpendra Vishwakarma — Knowledge grows when shared, not copyrighted.</p>
+                        <h1 class="text-[28px] text-[#fff] font-semibold cursor-default">Pushpendra Vishwakarma </h1>                      
+                        
+                        <p className="text-[#d2b4e7] text-[12px] md:text-[14px] w-[350px]">© 2025 Pushpendra Vishwakarma — Knowledge grows when shared, not copyrighted.</p>
                     </span>
                 </div>
 
