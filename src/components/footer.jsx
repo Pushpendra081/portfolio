@@ -8,7 +8,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 const Footer = () => {
     return (
 
-        <footer className=" flex justify-center rounded-t-[18px] border-2 bg-[#fff]/10 backdrop-blur-2xl">
+        <footer className="mt-[86px] flex justify-center rounded-t-[18px] border-2 bg-[#fff]/10 backdrop-blur-2xl">
             <div class=" my-[24px]  grid grid-cols-1 md:grid-cols-4 gap-2 justify-center ">
                 {/* name footer */}
                 <div className=" mt-[10px]">
