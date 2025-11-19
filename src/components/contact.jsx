@@ -20,39 +20,52 @@ const Contact = () => {
     };
 
     return (
-        <div class=" justify-items-center mx-[42px] mt-[4px]">
-            <div className="w-full max-w-[520px] my-[28px] px-[45px] py-[28px] bg-[#fff] rounded-[10px] flex flex-col justify-center items-center">
+        <div className=" bg-[#fff] mx-[18px] md:mx-[380px] justify-items-center py-[10px]  mt-[86px] rounded-[10px]">
+            {/* Heading */}
+            <div>
+                <h1 className="text-[34px] md:text-[42px] font-semibold tracking-wide">
+                    Let's Connect
+                </h1>
+            </div>
 
-                <div>
-                    <h1 class=" text-[32px] md:text-[38px] text-[#000] font-semibold tracking-wide ">Let's Connect</h1>
-                </div>
+            {/* Main Form */}
+            <div className="w-[300px] md:w-[580px] mt-[18px] md:mt-[24px]">
+                <form onSubmit={handleSubmit} className="flex flex-col gap-[10px]">
+                    <span className="mb-[-4px]">Name</span>
+                    <input
+                        title="Enter your name here!"
+                        type="text"
+                        name="name"
+                        maxlength="80"
+                        placeholder="What's your name?"
+                        className="w-full px-[16px] py-[10px] border-2  rounded-[10px] focus:outline-none transition-all duration-300 border-[#d2b4e7] focus:border-[#471396] focus:bg-[#e4e0e8]"
+                        required
+                    />
+                    <span className="mb-[-4px]">Message</span>
+                    <textarea
+                        title="Tell me how can i help you?"
+                        name="message"
+                        maxlength="500"
+                        placeholder="Hi, let's connect!"
+                        className="w-full h-[100px] md:h-[160px]  px-[16px] py-[10px] border-2  rounded-[10px] focus:outline-none transition-all duration-300  border-[#d2b4e7] focus:border-[#471396] focus:bg-[#e4e0e8]"
+                        required
+                    ></textarea>
 
-                <div class="w-full max-w-[450px] mt-[28px]  rounded-[10px]">
-                    <form action="" onSubmit={handleSubmit} class=" flex flex-col gap-[10px]">
-
-                        {/* Name */}
-                        <label htmlFor="" class="mb-[-4px] text-[#090040]">Name</label>
-                        <input type="text" name="name" title="Enter your name here!" class="w-full px-[16px] py-[10px] border-2 border-[#d2b4e7] focus:border-[#471396] rounded-[10px] focus:outline-none transition-all duration-300 focus:bg-[#e4e0e8]" placeholder="Enter your name here!" required />
-
-                        {/* Message */}
-                        <label htmlFor="" class="mb-[-4px] text-[#090040]">Message</label>
-                        <textarea title="Tell me how can i help you?" name="message" maxlength="500" placeholder="Hi, let's connect!" class="w-full h-[100px] md:h-[160px] px-[16px] py-[10px] border-2 border-[#d2b4e7] focus:border-[#471396] rounded-[10px] focus:outline-none transition-all duration-300 focus:bg-[#e4e0e8]" required></textarea>
-
-
-                        {/* Send Email */}
-                        <span className="flex flex-row justify-end items-center ">
-
-                            <button title="Send email via google!" type="submit" class=" flex flex-row items-center mt-[6px] gap-[14px] text-[16px] md:text-[18px] font-medium border-2 border-[#d2b4e7] px-[16px] py-[10px] rounded-[10px] transition-colors duration-300 cursor-pointer  hover:bg-[#d2b4e7] ">
-                                Send Email
-                                <MdEmail size={22} />
-                            </button>
-
-                        </span>
-                    </form>
-                </div>
+                    {/* Send Email */}
+                    <span className="flex flex-row justify-end items-center ">
+                        <button
+                            title="Send email via google!"
+                            type="submit"
+                            className="flex flex-row items-center mt-[6px] gap-[14px] text-[18px] font-medium border-2  shadow-xl px-[16px] py-[10px] rounded-[10px] w-fit transition-colors duration-300  cursor-pointer border-[#d2b4e7]   hover:bg-[#d2b4e7] "
+                        >
+                            <MdEmail size={24} />
+                            Send Email
+                        </button>
+                    </span>
+                </form>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Contact
+export default Contact;
